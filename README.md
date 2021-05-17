@@ -180,6 +180,3 @@ Delete one document
 delete_data = collection_name.delete_one({'medicine_id':'RR000123456'})
 ```
 Connect to your MongoDB Atlas cluster to see the changes.
-
-README.md
-Displaying README.md.
