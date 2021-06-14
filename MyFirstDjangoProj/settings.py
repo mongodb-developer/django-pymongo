@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'MyFirstDjangoProj.wsgi.application'
 #    }
 #}
 
-DB_NAME = 'mongodb+srv://m001-student:m001-mongodb-basics@sandbox.qurli.mongodb.net/myFirstDatabase'
+DB_NAME = 'mongodb+srv://<username>:<password>@<cluster-name>.mongodb.net/myFirstDatabase'
 
 DATABASES = {
         'default': {
@@ -89,7 +89,7 @@ DATABASES = {
             'NAME': 'employees',
             'ENFORCE_SCHEMA': False,
             'CLIENT': {
-                'host': 'mongodb+srv://m001-student:m001-mongodb-basics@sandbox.qurli.mongodb.net/myFirstDatabase'
+                'host': 'mongodb+srv://<username>:<password>@<cluster-name>.mongodb.net/myFirstDatabase'
             }  
         }
 }
