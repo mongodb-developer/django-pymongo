@@ -176,3 +176,6 @@ update_data = collection_name.update_one({'medicine_id':'RR000123456'}, {'$set':
 delete_data = collection_name.delete_one({'medicine_id':'RR000123456'})
 ```
 Connect to your MongoDB Atlas cluster to see the changes.
+
+# Disclaimer
+This software is not supported by MongoDB, Inc under any of their commercial support subscriptions or otherwise. Any usage is at your own risk.
